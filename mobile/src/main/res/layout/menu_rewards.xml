@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/profileAndRewards"
+        android:layout_width="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/ripple"
+        android:orientation="horizontal">
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp">
+
+        <ImageView
+                android:id="@+id/userProfileImage"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_centerVertical="true"/>
+
+        <RelativeLayout android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/userProfileImage">
+
+            <TextView
+                    android:id="@+id/userProfileName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/size_profile_user_name"
+                    android:text="@string/welcome_placeholder"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_marginStart="6dp"/>
+
+            <TextView
+                    android:id="@+id/userPointsRewarded"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="@string/no_0_pts"
+                    android:textSize="@dimen/size_profile_points_rewarded"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_below="@+id/userProfileName"
+                    android:layout_marginStart="6dp"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:tint="@color/primaryTextColor"
+            android:src="@drawable/ic_arrow_right"/>
+</LinearLayout>

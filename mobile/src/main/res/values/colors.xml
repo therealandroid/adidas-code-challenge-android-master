@@ -1,0 +1,14 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<resources>
+    <color name="primaryColor">#000000</color>
+    <color name="primaryLightColor">#2c2c2c</color>
+    <color name="primaryDarkColor">#000000</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="ripple">#d1d1d1</color>
+
+    <color name="FINISHED">#919191</color>
+    <color name="STILL">#000000</color>
+    <color name="RUNNING">#3aaf55</color>
+
+</resources>

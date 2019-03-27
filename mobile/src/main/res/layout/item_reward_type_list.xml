@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_between_elements"
+            card_view:cardCornerRadius="4dp">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_margin="@dimen/margin_between_elements"
+                      android:layout_marginTop="@dimen/margin_between_elements">
+
+            <TextView
+                    android:id="@+id/rewardsTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/size_text_view_primary_list"
+                    android:layout_marginTop="@dimen/margin_between_elements"
+                    android:text="GOAL 1000 Steps"/>
+
+            <TextView
+                    android:id="@+id/rewardsDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/size_text_view_secondary_list"
+                    android:layout_marginTop="@dimen/margin_between_elements"
+                    android:text="Rewards 1000 PTS"/>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:layout_marginTop="@dimen/margin_between_elements"
+                          android:layout_gravity="center_vertical"
+                          android:gravity="center_vertical">
+
+                <ImageView
+                        android:id="@+id/rewardsBadge"
+                        android:layout_width="@dimen/size_badge_in_list"
+                        android:layout_height="@dimen/size_badge_in_list"
+                        android:src="@drawable/ic_badge_bronze_medal_96"/>
+
+                <TextView
+                        android:id="@+id/goalPointsEarned"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/size_text_view_secondary_list"
+                        android:alpha="0.8"
+                        android:layout_marginStart="@dimen/margin_between_elements"
+                        android:textColor="@color/RUNNING"
+                        android:textStyle="bold"
+                        android:text="10 PTS"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

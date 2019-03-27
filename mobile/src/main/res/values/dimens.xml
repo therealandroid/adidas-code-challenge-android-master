@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_margin_default">16dp</dimen>
+    <dimen name="size_loading">52dp</dimen>
+    <dimen name="size_goal_steps">26sp</dimen>
+    <dimen name="size_goal_description">14sp</dimen>
+    <dimen name="size_profile_points_rewarded">10sp</dimen>
+    <dimen name="size_profile_user_name">10sp</dimen>
+    <dimen name="size_badge_in_list">26dp</dimen>
+    <dimen name="size_profile_type_big">64dp</dimen>
+    <dimen name="size_profile_title">14sp</dimen>
+    <dimen name="margin_between_elements">8sp</dimen>
+    <dimen name="size_text_view_primary_list">12sp</dimen>
+    <dimen name="size_text_view_secondary_list">10sp</dimen>
+    <dimen name="size_text_view_tertiary_list">10sp</dimen>
+    <dimen name="size_empty_view_title">16sp</dimen>
+    <dimen name="size_empty_view_decsription">14sp</dimen>
+    <dimen name="size_empty_view_image">60dp</dimen>
+</resources>

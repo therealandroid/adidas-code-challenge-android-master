@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:gravity="center_horizontal">
+
+    <TextView
+            android:id="@+id/goalsRewardProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:padding="6dp"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:text="You should walk 500 steps"/>
+
+    <TextView
+            android:id="@+id/goalsSteps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/size_goal_steps"
+            android:text="Goal 50/500 steps"
+            android:textColor="@color/primaryColor"/>
+
+    <TextView
+            android:id="@+id/goalsDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@color/primaryColor"
+            android:text="Easy Walk Steps"/>
+
+
+    <View android:layout_width="2dp"
+          android:layout_height="34dp"
+          android:background="@drawable/vertical_line"/>
+
+    <ImageView
+            android:id="@+id/goalsBadge"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_badge_bronze_medal_96"/>
+
+    <TextView
+            android:id="@+id/goalsPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:text="50 PTS"/>
+
+
+    <TextView
+            android:id="@+id/goalsRewardState"
+            android:layout_width="300dp"
+            android:layout_height="42dp"
+            android:background="@drawable/salsage_button"
+            android:textColor="#666666"
+            android:padding="6dp"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:layout_marginBottom="6dp"
+            android:text="You should walk 500 steps"/>
+
+
+    <View
+            android:id="@+id/bottomVerticalLine"
+            android:layout_width="2dp"
+            android:layout_height="94dp"
+            android:background="@drawable/vertical_line"/>
+</LinearLayout>
